@@ -316,9 +316,3 @@ Why: Finds dominance in pair trades.
 * CSV Dataset (`national_stock`)
 
 ---
-
-**🚀 Usage**
-
-1. Import the CSV into MySQL using **Table Data Import Wizard**.
-2. Run queries from the `queries/` folder inside your MySQL client.
-3. Analyze results to gain insights into stock performance, volatility, seasonal effects, and sector-based trends.

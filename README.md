@@ -102,36 +102,14 @@ ORDER BY trade_month, avg_monthly_return DESC;
 
 *Why?* → Helps identify seasonal patterns and recurring trends in stock performance.
 
----
-
-## 📈 Key Insights You Can Derive
-
-✔ Which stocks deliver **consistent growth** over time.
-✔ Which sectors attract **highest trading volumes & turnover**.
-✔ Which companies show **strong investor trust** (high turnover/volume).
-✔ Which stocks are **close to 52-week highs** (potential breakout candidates).
-✔ Which stocks are **highly volatile** and risky for short-term trading.
-✔ How **festival occasions or events** impact market sentiment.
-✔ Which months show **recurring trends** in performance (seasonality).
-✔ How anomalies in data highlight **errors or unusual trading behavior**.
-
----
-
 **🛠️ Technologies Used**
 
 * **MySQL** (database engine)
 * **SQL** (query language)
 * **CSV dataset** (imported via MySQL Workbench)
 
----
-
 **🚀 Usage**
 
 1. Import the CSV into MySQL using **Table Data Import Wizard**.
 2. Run queries from the `queries/` folder inside your MySQL client.
 3. Analyze results to gain insights into stock performance, volatility, seasonal effects, and sector-based trends.
-
----
-
-👉 Bro, this way your README now looks **professional + practical**.
-Do you want me to also add a **flow diagram (CSV → DB → SQL Queries → Insights)** in markdown style so it looks visual on GitHub?
